@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 
 export default async function MainLayout({
   children,
+  // params,
 }: {
   children: ReactNode;
   params: { slug?: string }; 
