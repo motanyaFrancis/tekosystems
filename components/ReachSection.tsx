@@ -12,7 +12,7 @@ export default function ReachSection() {
           We proudly serve clients across Africa. Whether you're in{" "}
           <span className="font-semibold">Nairobi</span>,{" "}
           <span className="font-semibold">Kampala</span>, or{" "}
-          <span className="font-semibold">Lagos</span> — we’re ready to help you
+          <span className="font-semibold">Lagos</span> — we&apos;re ready to help you
           scale.
         </p>
       </div>
