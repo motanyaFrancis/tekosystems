@@ -9,7 +9,7 @@ export default function ReachSection() {
           🌍 Our Reach
         </h2>
         <p className="text-lg text-slate-700 mt-4">
-          We proudly serve clients across Africa. Whether you're in{" "}
+          We proudly serve clients across Africa. Whether you&apos;re in{" "}
           <span className="font-semibold">Nairobi</span>,{" "}
           <span className="font-semibold">Kampala</span>, or{" "}
           <span className="font-semibold">Lagos</span> — we&apos;re ready to help you
