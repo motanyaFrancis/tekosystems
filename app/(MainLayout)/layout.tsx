@@ -1,14 +1,10 @@
+// app/(MainLayout)/layout.tsx
+
 import { ReactNode } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
-export default async function MainLayout({
-  children,
-  // params,
-}: {
-  children: ReactNode;
-  params: { slug?: string }; 
-}) {
+export default function MainLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <Navbar />
