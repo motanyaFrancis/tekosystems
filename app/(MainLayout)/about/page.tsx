@@ -4,7 +4,12 @@ import { PageHeader } from '@/components/PageHeader';
 
 import type { Metadata } from 'next';
 import type { PageHeaderProps } from '@/components/PageHeader';
-import AboutUs from '@/components/AboutUs';
+// import AboutUs from '@/components/AboutUs';
+// import StatsSection from "@/components/StatsSection";
+import AboutIntro from "@/components/AboutIntro";
+import VisionMissionValues from "@/components/VisionMissionValues";
+import WhyUsSection from "@/components/WhyUsSection";
+import ProcessSection from "@/components/ProcessSection";
 
 export const metadata: Metadata = {
   title: 'About Us',
@@ -16,7 +21,7 @@ async function getHeaderData(): Promise<PageHeaderProps> {
       resolve({
         title: 'About Us',
         subtitle: 'Discover the Beauty of Kenya with Travel Nomads',
-        backgroundImageSrc: '/images/Handshake.jpg',
+        backgroundImageSrc: '/images/about.jpg',
         showSearch: false,
       });
     }, 1000);
@@ -28,8 +33,14 @@ export default async function ContactUsPage() {
   return (
     <>
       <PageHeader {...headerData} />
-      <main className="bg-gray-50 min-h-64">
-        <AboutUs />
+      <main className="bg-gray-50 min-h-64 ">
+        <div className="">
+          <AboutIntro />
+          <VisionMissionValues />
+          <WhyUsSection />
+          <ProcessSection />
+          {/* <StatsSection /> */}
+        </div>
       </main>
     </>
   );

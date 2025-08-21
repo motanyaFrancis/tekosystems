@@ -16,7 +16,7 @@ async function getHeaderData(): Promise<PageHeaderProps> {
       resolve({
         title: 'Talk to us',
         subtitle: 'Discover the Beauty of Kenya with Travel Nomads',
-        backgroundImageSrc: '/images/Handshake.jpg',
+        backgroundImageSrc: '/images/contact.jpg',
         showSearch: false,
       });
     }, 1000);

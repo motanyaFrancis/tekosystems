@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             <Link href="/" >
               <Image
                 alt="Logo"
-                src="/images/logos/logo.png"
+                src="/images/logos/logo-black.png"
                 className=""
                 width={300}
                 height={120}
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
         <div className="relative mt-8">
           <div className="relative flex flex-col md:flex-row justify-between  items-center border-t border-gray-700 pt-4">
             <p className="text-sm text-gray-900 text-center md:text-left mb-4 md:mb-0">
-              &copy; 2014 - {new Date().getFullYear()} Teko Systems Limited.
+              &copy; 2020 - {new Date().getFullYear()} Teko Systems Limited.
             </p>
             <div className="flex space-x-4 justify-center md:justify-end">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-900 hover:text-secondary-500">

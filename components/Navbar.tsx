@@ -37,11 +37,12 @@ export default function Navbar() {
                 <nav className="py-5 container mx-auto px-4 flex items-center justify-between">
                     <Link href="/">
                         <Image
-                            src={isScrolled ? '/images/logos/logo.png' : '/images/logos/logo-white.png'}
+                            src={isScrolled ? '/images/logos/logo-black.png' : '/images/logos/logo-white.png'}
                             alt="Logo"
-                            width={150}
+                            width={200}
                             height={60}
                             priority
+
                         />
                     </Link>
 
@@ -181,7 +182,12 @@ export default function Navbar() {
                 <nav className="relative p-8 w-full h-full bg-gray-50 overflow-y-auto">
                     <div className="flex items-center justify-between">
                         <Link href="/">
-                            <Image src="/images/logos/logo.png" alt="Logo" width={150} height={60} />
+                            <Image
+                                src="/images/logos/logo.png"
+                                alt="Logo"
+                                width={200}
+                                height={60}
+                            />
                         </Link>
                         <button onClick={() => setMobileNavOpen(false)}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
