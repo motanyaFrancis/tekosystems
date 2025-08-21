@@ -6,8 +6,8 @@ import PageSelector from "@/components/LegalPageSelector";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-white text-gray-500 py-14 relative" id='footer'>
-     
-      <div className="container mx-auto px-4 relative z-10">
+
+      <div className="container mx-auto px-4 py-10 relative z-10">
         {/* Main Grid for Top Part of Footer */}
         <div className="grid md:grid-cols-2 gap-8">
           {/* First Column (Logo & Info) */}
@@ -28,25 +28,19 @@ const Footer: React.FC = () => {
             {/* Column 1 */}
             <div>
               <h5 className="font-semibold text-lg mb-2">About</h5>
-              <ul className="space-y-4">
+              <ul className="space-y-2 text-sm text-gray-700">
                 <li>
-                  <Link href="/link1" className="hover:text-primary-500 text-sm ">
-                    Best Time to Visit
-                  </Link>
-                </li>
-
-                <li>
-                  <Link href="/link3" className="hover:text-primary-500 text-sm ">
+                  <Link href="#" className="hover:text-primary-500 text-sm ">
                     Press
                   </Link>
                 </li>
                 <li>
-                  <Link href="/link3" className="hover:text-primary-500 text-sm ">
+                  <Link href="#" className="hover:text-primary-500 text-sm ">
                     Blog
                   </Link>
                 </li>
                 <li>
-                  <Link href="/link3" className="hover:text-primary-500 text-sm ">
+                  <Link href="#" className="hover:text-primary-500 text-sm ">
                     Forums
                   </Link>
                 </li>
