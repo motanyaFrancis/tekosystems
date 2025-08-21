@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaYoutube, FaInstagram } from 'react-icons/fa';
-import { SiTiktok } from 'react-icons/si';
-// import SearchBox from './SearchBox';
+import { FaInstagram, FaWhatsapp, FaLinkedin, FaFacebook } from 'react-icons/fa';
+
 
 export interface Breadcrumb {
   name: string;
@@ -78,17 +77,17 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
           href="https://www.youtube.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-red-600 transition"
+          className="text-white hover:text-lime-600 transition"
         >
-          <FaYoutube className="w-6 h-6" />
+          <FaWhatsapp className="w-6 h-6" />
         </a>
         <a
           href="https://www.tiktok.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-pink-500 transition"
+          className="text-white hover:text-sky-700 transition"
         >
-          <SiTiktok className="w-6 h-6" />
+          <FaLinkedin className="w-6 h-6" />
         </a>
         <a
           href="https://www.instagram.com"
@@ -97,6 +96,14 @@ export const PageHeader: React.FC<PageHeaderProps> = ({
           className="text-white hover:text-pink-400 transition"
         >
           <FaInstagram className="w-6 h-6" />
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white hover:text-sky-600 transition"
+        >
+          <FaFacebook className="w-6 h-6" />
         </a>
       </div>
     </header>

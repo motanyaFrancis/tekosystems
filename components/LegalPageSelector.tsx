@@ -9,8 +9,7 @@ const pages: { key: LegalPageKey; label: string }[] = [
   { key: 'helpCenter', label: 'Help Center' },
   { key: 'privacyPolicy', label: 'Privacy Policy' },
   { key: 'termsOfService', label: 'Terms of Service' },
-  { key: 'trustAndSafety', label: 'Trust and Safety' },
-  { key: 'accessibility', label: 'Accessibility' },
+  
 ];
 
 const PageSelector: React.FC = () => {

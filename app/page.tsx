@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
-import HighlightsSection from "@/components/HighlightsSection";
+import AboutIntro from "@/components/AboutIntro";
+// import HighlightsSection from "@/components/HighlightsSection";
 import SolutionsSection from "@/components/SolutionsSection";
 import ReachSection from "@/components/ReachSection";
 import ImpactSection from "@/components/ImpactSection";
@@ -12,7 +13,7 @@ export default function Home() {
   return (
     <div className="bg-gray-100">
       <HeroSection />
-      <HighlightsSection />
+      <AboutIntro />
       <SolutionsSection />
       <ReachSection />
       <ImpactSection />

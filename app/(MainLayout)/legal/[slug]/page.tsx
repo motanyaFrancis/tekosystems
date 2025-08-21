@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { legalPagesContent, LegalPageKey } from '@/lib/legalPagesContent';
 import { PageHeader } from '@/components/PageHeader';
-// import CallToAction from '@/components/CallToAction';
 import ReactMarkdown from 'react-markdown';
 import rehypeSanitize from 'rehype-sanitize';
 import remarkGfm from 'remark-gfm';
@@ -44,7 +43,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         openGraph: {
             title: pageData.title,
             description: preview,
-            url: `https://wildroadnomads.co.ke.com/legal/${slug}`,
+            url: `https://teko.africa/legal/${slug}`,
         },
         twitter: {
             card: 'summary',
@@ -52,7 +51,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             description: preview,
         },
         alternates: {
-            canonical: `https://wildroadnomads.co.ke.com/legal/${slug}`,
+            canonical: `https://teko.africa/legal/${slug}`,
         },
     };
 }
@@ -69,7 +68,7 @@ export default async function LegalPage({ params }: PageProps) {
 
     const breadcrumbs = [
         { name: 'Home', href: '/' },
-        { name: 'Legal', href:  `/legal/${slug}#footer` },
+        { name: 'Legal', href: `/legal/${slug}#footer` },
         { name: pageData.title, href: `/legal/${slug}` },
     ];
 
@@ -81,15 +80,22 @@ export default async function LegalPage({ params }: PageProps) {
                 backgroundImageSrc="/images/header.jpg"
                 breadcrumbs={breadcrumbs}
             />
-            <main className="pt-4 bg-gray-100 text-gray-900">
-
-                <section className="max-w-7xl mx-auto px-4 py-8 prose prose-neutral prose-h2:mt-8 prose-p:mt-4">
+            <main className="pt-4 bg-gray-50 text-gray-900">
+                <section
+                    className="
+                        max-w-5xl mx-auto px-6 py-10
+                        prose prose-lg prose-blue
+                        prose-h2:text-blue-700 prose-h2:font-bold
+                        prose-h3:text-red-600 prose-h3:font-semibold
+                        prose-li:marker:text-blue-500
+                        prose-strong:text-gray-800
+                        prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline
+                    "
+                >
                     <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSanitize]}>
                         {pageData.content}
                     </ReactMarkdown>
                 </section>
-
-                {/* <CallToAction /> */}
             </main>
         </>
     );

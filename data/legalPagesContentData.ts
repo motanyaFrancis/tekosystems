@@ -2,414 +2,208 @@
 import { LegalPageContent } from "../lib/legalPagesContent";
 
 export const legalPagesContentData: Record<string, LegalPageContent> = {
-    helpCenter: {
-        title: "Help Center",
-        content: `
-Welcome to the Help Center — your go-to resource for navigating our adventure and experience booking platform. Whether you're planning your first trip, managing an existing booking, or have questions about safety, payments, or cancellations, we’re here to support you.
+  helpCenter: {
+    title: "Help Center",
+    content: `
+Welcome to the Help Center — your go-to resource for navigating Teko Systems Limited’s digital solutions. Whether you’re deploying new software, seeking technical support, or exploring our products and services, we’re here to guide you.
 
 ### 1. Getting Started
 
-Create an account to access all features, including:
+Create an account or sign in to access full features, including:
 
-- Personalized experience recommendations
-- Saved adventures
-- Booking and payment history
+- Product documentation and user guides
+- Access to updates, patches, and new releases
+- Support ticket tracking and knowledge base articles
 
-Use our search and filter tools to find experiences by destination, category, date, or price.
+Browse our resource library or use the search tool to find solutions by product, industry, or challenge area.
 
-### 2. Making a Booking
+### 2. Requesting Support
 
-To book an experience:
+To request help:
 
-1. Browse available dates and read the experience details
-2. Select your group size or package
-3. Proceed to checkout and confirm payment
+1. Go to **Support Portal** in your dashboard
+2. Select your product or service
+3. Open a new support ticket with details of your issue
 
-You’ll receive an instant confirmation email and be able to view all upcoming trips in your dashboard.
+Our team will review and respond within the specified SLA. You can monitor progress in your dashboard.
 
-### 3. Modifying or Canceling a Booking
+### 3. Modifying or Upgrading Services
 
-Plans changed? We understand. You can:
+Need to adjust your service plan? You can:
 
-- Modify your date (subject to availability)
-- Cancel your experience (subject to the cancellation policy)
+- Upgrade or downgrade your subscription
+- Add additional users or integrations
+- Request a product demo for new features
 
-Go to **My Bookings** > **Manage** and follow the prompts. If you're within the provider's flexible window, a full or partial refund may apply.
+Visit **My Services** > **Manage** to make changes, or contact your account manager.
 
-### 4. Payment & Billing
+### 4. Billing & Payments
 
-We support major credit cards, mobile payments (e.g., M-Pesa), and other local options. All transactions are secure and encrypted.
+We support bank transfers, mobile money (M-Pesa), and major credit cards. All transactions are secure and encrypted.
 
-If you’re experiencing billing issues, contact: **info@wildroadnomads.co.ke**.
+For billing inquiries, contact: **support@teko.africa**.
 
-### 5. Safety & Emergencies
+### 5. Security & Data Protection
 
-For emergencies during an experience, call our 24/7 support hotline listed in your confirmation email. For all other safety questions, visit our **Trust & Safety** page.
+Our systems are designed with enterprise-grade security. For urgent incidents (e.g., suspected breaches), contact our **24/7 support hotline** provided in your contract.
 
-### 6. Reviewing an Experience
+Visit our **Trust & Security** page for compliance details (ISO, GDPR, etc.).
 
-After your adventure, you’ll get an email inviting you to leave a review. Honest feedback helps others and holds providers accountable.
+### 6. Providing Feedback
+
+We value your input! After resolving a ticket, you’ll be prompted to share feedback. Your insights help us continuously improve.
 
 ### 7. Need More Help?
 
 Still stuck? Reach us via:
 
-- **Email:** info@wildroadnomads.co.ke
-- **Live Chat:** Available 9am – 6pm EAT
-- **Phone:** +254 700 000 000
+- **Email:** info@teko.africa  
+- **Live Chat:** 9am – 6pm EAT  
+- **Phone:** +254 700 000 000  
 
-Thank you for choosing us to guide your next adventure!
-  `.trim(),
-    },
+Thank you for trusting us as your digital transformation partner.
+    `.trim(),
+  },
 
-
-    privacyPolicy: {
-        title: "Privacy Policy",
-        content: `
-We value your privacy and are committed to protecting your personal data while delivering exceptional travel and adventure experiences. This Privacy Policy outlines how we collect, use, and safeguard your information when you interact with our website, mobile app, or services.
+  privacyPolicy: {
+    title: "Privacy Policy",
+    content: `
+At Teko Systems Limited, your privacy is a top priority. We are committed to protecting your personal data while delivering innovative technology solutions. This Privacy Policy explains how we collect, use, and safeguard your information.
 
 ### 1. Information We Collect
 
-We collect the following types of information:
+We may collect:
 
-- **Personal Information:** When you register, book, or contact us, we may collect your name, email, phone number, address, ID/passport number (if required for border or travel clearance), and payment details.
-- **Booking & Travel Details:** Experiences you book, destinations, dates, guest names, special requests, and communications with providers.
-- **Device & Usage Data:** Including IP address, browser type, device info, operating system, access times, and browsing behavior.
-- **Location Data:** If you opt in, we may collect your device’s location for features such as local suggestions or experience check-ins.
-- **Third-Party Data:** When you log in using platforms like Google or Facebook, or make a payment via a third-party gateway, we may receive certain profile or transaction information.
+- **Personal Information:** Name, email, phone, organization, and billing details
+- **System & Usage Data:** Log files, device/browser information, IP addresses
+- **Service Interactions:** Support tickets, chat logs, feature requests
+- **Third-Party Data:** If you sign in via Google, Microsoft, or other services
 
 ### 2. How We Use Your Information
 
-We use your data to:
+Your data is used to:
 
-- Process and confirm your experience bookings
-- Facilitate communication with guides, hosts, and local operators
-- Deliver support and respond to inquiries
-- Customize search results, offers, and content based on your activity
-- Detect fraud, enhance platform security, and comply with local travel regulations
-- Send promotional updates (only with your consent)
+- Deliver and maintain our services
+- Provide technical support and resolve issues
+- Improve product performance and user experience
+- Communicate service updates and offers (with your consent)
+- Ensure security and comply with regulations
 
-We do **not** sell your personal data to marketers or unrelated third parties.
+We **do not** sell your data to third parties.
 
 ### 3. Sharing Your Information
 
-We may share your information in these limited scenarios:
+We may share data only when necessary:
 
-- **Experience Providers:** When required to fulfill your booking. Providers receive only the necessary details (e.g., your name, contact, and group size).
-- **Service Partners:** We work with payment processors, email services, and analytics tools who handle data securely on our behalf.
-- **Legal Compliance:** We may disclose data in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.
-- **Emergency Situations:** If needed to protect your safety or the safety of others during a booked experience.
-- **Business Transfers:** In the event of a merger, acquisition, or asset sale, your data may be transferred in accordance with applicable laws.
+- **Service Providers:** Payment processors, hosting providers, analytics tools
+- **Legal Compliance:** When required by law or regulations
+- **Business Transfers:** In case of mergers or acquisitions
 
 ### 4. Data Security
 
-We use a combination of technical and organizational measures to secure your data:
+We implement:
 
-- HTTPS encryption across all our services
-- Encrypted storage of sensitive information (e.g., passwords, payment data)
-- Access controls and staff training on data protection
-- Regular audits and vulnerability scanning
+- End-to-end encryption (HTTPS, TLS)  
+- Encrypted storage for sensitive information  
+- Access controls and staff security training  
+- Regular vulnerability assessments  
 
-Although no system is 100% secure, we do our best to keep your data safe and notify you promptly in the event of a breach.
+### 5. Your Rights
 
-### 5. Your Rights and Choices
+Depending on your jurisdiction, you may:
 
-Depending on your location, you may have the right to:
+- Access your personal data
+- Request corrections or deletions
+- Withdraw consent for communications
+- Restrict or object to certain processing activities
 
-- **Access** the personal data we hold about you
-- **Correct** inaccurate or outdated information
-- **Request deletion** of your account and personal information
-- **Withdraw consent** from promotional communications
-- **Limit** the use of certain types of data (e.g., location tracking)
-
-To exercise your rights, contact us at **info@wildroadnomads.co.ke**. We will verify your identity before fulfilling requests.
+To exercise your rights, email **privacy@teko.africa**.
 
 ### 6. Data Retention
 
-We retain your data only as long as necessary for:
+We retain data only as long as necessary for business, compliance, and security purposes.
 
-- Managing bookings and disputes
-- Legal and regulatory compliance (e.g., tax laws)
-- Improving user experience and security
-- Accounting and reporting requirements
+### 7. Cookies
 
-Inactive accounts may be anonymized or deleted after a set period unless otherwise requested.
+We use cookies for:
 
-### 7. International Data Transfers
+- Authentication  
+- Analytics  
+- Improving website performance  
 
-If you are located outside of Kenya or our primary hosting regions, please note that your data may be transferred and processed in countries that may not have the same data protection laws. We take steps to ensure such transfers are secure and lawful.
+You can adjust preferences in your browser.
 
-### 8. Cookies & Tracking Technologies
+### 8. Contact Us
 
-We use cookies and similar technologies to:
+Questions? Reach us at:  
 
-- Remember your preferences
-- Analyze user behavior
-- Personalize offers and content
-- Enable essential functionality (e.g., booking flow)
-
-You can modify cookie preferences via your browser settings or through our cookie consent banner.
-
-### 9. Children's Privacy
-
-Our services are intended for users aged 18 and above. We do not knowingly collect personal information from children under 13. If we learn that we’ve collected such data, we will delete it promptly.
-
-### 10. Updates to This Policy
-
-We may update this Privacy Policy to reflect new features, regulatory changes, or evolving best practices. If we make material changes, we’ll notify you via email or a notice on our platform.
-
-The date of the most recent revision will always be posted at the top of this page.
-
-### 11. Contact Us
-
-If you have any questions, concerns, or requests related to this policy or how we handle your data, reach out via:
-
-**Email:** info@wildroadnomads.co.ke  
+**Email:** info@teko.africa  
 **Phone:** +254 700 000 000  
-**Mailing Address:** 123 Adventure Street, Nairobi, Kenya
+**Address:** Nairobi, Kenya
+    `.trim(),
+  },
 
-We’re committed to earning and keeping your trust every step of your journey.
-  `.trim(),
-    },
-
-    termsOfService: {
-        title: "Terms of Service",
-        content: `
-These Terms of Service ("Terms") govern your use of our tourism and adventure booking platform. By using our services, you agree to these terms.
+  termsOfService: {
+    title: "Terms of Service",
+    content: `
+These Terms of Service ("Terms") govern your use of Teko Systems Limited’s products and services. By using our solutions, you agree to these Terms.
 
 ### 1. Overview
 
-Our platform connects users with local tour operators, guides, and experience providers. We facilitate bookings, process payments, and manage communication.
+We provide digital transformation tools and services for businesses, schools, churches, and civic organizations. Use of our services must comply with these Terms.
 
 ### 2. Account Responsibilities
 
-To access full features, users must create an account. You are responsible for maintaining the confidentiality of your login credentials.
+- You must provide accurate information during registration  
+- You are responsible for safeguarding your credentials  
+- Accounts are for authorized users only  
 
-- You must be at least 18 years old
-- You agree not to share your account or impersonate others
+### 3. Service and Payment
 
-### 3. Booking and Payment Terms
+By purchasing or subscribing:
 
-When you book an experience:
+- You agree to pay applicable fees  
+- Subscription renewals are automatic unless canceled  
+- Refunds follow our refund policy  
 
-- You agree to pay the full price, including applicable taxes and fees
-- You agree to the provider’s cancellation and refund policy
-- We hold payments securely until the experience is completed
-
-### 4. Provider Conduct
-
-Experience providers agree to:
-
-- Offer accurate and truthful descriptions of their services
-- Maintain necessary licenses and insurance
-- Follow safety guidelines and respond to incidents promptly
-
-We reserve the right to suspend providers for policy violations.
-
-### 5. Cancellation and Refunds
-
-Refund eligibility is based on each provider’s cancellation window. We facilitate partial or full refunds according to those rules. Emergencies and extenuating circumstances are handled case-by-case.
-
-### 6. Prohibited Conduct
+### 4. Acceptable Use
 
 You may not:
 
-- Use the platform for illegal or harmful purposes
-- Harass, threaten, or abuse other users or staff
-- Post false reviews or engage in fraud
+- Use services for unlawful purposes  
+- Attempt unauthorized access or security breaches  
+- Share, resell, or misuse software outside agreed terms  
 
-Violations may result in account suspension or legal action.
+### 5. Intellectual Property
 
-### 7. Intellectual Property
+All software, documentation, and branding are owned by Teko Systems Limited. You may not copy, modify, or redistribute without written consent.
 
-All content on the platform — including images, text, and branding — is owned or licensed by us. You may not use it without permission.
+### 6. Service Availability
 
-### 8. Disclaimers
+While we aim for 99.9% uptime, maintenance or outages may occur. We are not liable for disruptions beyond our control.
 
-- We are not the direct provider of experiences. Responsibility for safety and performance lies with the providers.
-- Activities may carry inherent risks. You participate at your own discretion.
-
-### 9. Limitation of Liability
+### 7. Liability
 
 We are not liable for:
 
-- Injury, loss, or damage during activities
-- Delays or disruptions beyond our control
-- User conduct or provider negligence
+- Indirect, incidental, or consequential damages  
+- Loss of data beyond backup commitments  
+- Failures caused by third-party services  
 
-Our total liability is limited to the amount paid for a booking.
+### 8. Termination
 
-### 10. Changes to Terms
+We may suspend or terminate accounts for violations of these Terms.
 
-We may revise these Terms at any time. Continued use of the platform after updates means you accept the new terms.
+### 9. Updates to Terms
 
-### 11. Contact Us
+We may revise these Terms. Continued use after changes indicates acceptance.
 
-**Email:** info@wildroadnomads.co.ke  
-**Address:** 123 Adventure Street, Nairobi, Kenya  
-**Phone:** +254 700 000 000
-  `.trim(),
-    },
+### 10. Contact Us
 
-
-    trustAndSafety: {
-        title: "Trust and Safety",
-        content: `
-At the heart of our adventure and tourism platform is a commitment to your trust and safety. Whether you're booking a serene coastal retreat or an adrenaline-fueled safari, we ensure that every experience meets the highest safety and ethical standards.
-
-### 1. Vetted Experience Providers
-
-All tour guides, hosts, and adventure companies on our platform go through a comprehensive vetting process before they are approved. This includes:
-
-- Verification of identity and business registration
-- Licensing and certifications for activities such as safaris, hiking, diving, or mountaineering
-- Reviews of customer feedback and safety track record
-
-Only providers who meet our quality and safety benchmarks are listed on the platform.
-
-### 2. Safety Standards for Experiences
-
-Every experience listed must adhere to our mandatory safety criteria, including:
-
-- Pre-activity safety briefings for participants
-- Use of certified equipment (e.g., helmets, harnesses, life vests)
-- Trained guides with first aid or emergency response training
-- Clearly communicated emergency protocols
-
-You’ll find safety information clearly indicated on each experience page.
-
-### 3. Community Expectations
-
-We want everyone—travelers, hosts, and local partners—to feel respected and safe. All users are expected to:
-
-- Follow guide instructions and safety rules during activities
-- Treat local communities and environments with respect
-- Refrain from harassment, discrimination, or unsafe behavior
-
-Violations of our community standards can lead to suspension or permanent removal from the platform.
-
-### 4. Incident Reporting
-
-If something doesn’t feel right—before, during, or after your experience—you can report it through your account or directly at info@wildroadnomads.co.ke. Our safety team investigates all concerns seriously and works with providers to address issues promptly.
-
-### 5. Insurance and Risk Awareness
-
-We encourage all travelers to understand the nature of their chosen adventure. While many providers offer basic insurance coverage, we recommend that guests:
-
-- Review the experience’s risk level (displayed on each listing)
-- Consider purchasing additional travel or activity-specific insurance
-- Disclose any medical conditions relevant to physical activities
-
-Adventure comes with risks, and being informed helps manage them responsibly.
-
-### 6. Health and Hygiene Measures
-
-In partnership with local authorities and health guidelines, providers must maintain:
-
-- Clean and sanitized equipment between uses
-- Handwashing or sanitization stations on-site
-- COVID-19 or other communicable disease protocols, when relevant
-
-Your health is a priority, whether you’re kayaking in Lake Naivasha or trekking through the Aberdares.
-
-### 7. Environmental Responsibility
-
-We work with providers who are committed to sustainable and ethical tourism. You’ll find:
-
-- Waste management practices
-- Wildlife-friendly codes of conduct
-- Experiences that support conservation or local economies
-
-Travel responsibly, and help us protect the places we explore.
-
-### 8. Emergency Support
-
-Should an emergency arise during your trip, our 24/7 emergency support team is here to help. We can:
-
-- Liaise with local medical services or authorities
-- Help you get to safety
-- Provide follow-up support and insurance documentation
-
-Your safety goes beyond the booking—it’s our full-time responsibility.
-
-### 9. Continuous Oversight and Improvement
-
-Our Trust & Safety team continuously monitors:
-
-- User reviews and provider ratings
-- Incident reports and resolution response times
-- Trends in travel risks, scams, or environmental impact
-
-This ensures that only top-rated, responsible experiences stay on the platform.
-
-### 10. Have Questions?
-
-We’re happy to answer your concerns before you book. Email us at info@wildroadnomads.co.ke, and we’ll help you understand what to expect from your adventure.
-
-Travel with confidence. Explore with peace of mind.
-  `.trim(),
-    },
-
-
-    accessibility: {
-        title: "Accessibility",
-        content: `
-We are committed to making our tourism and adventure platform accessible to all travelers, regardless of ability, age, or background.
-
-### 1. Digital Accessibility
-
-Our website and booking platform follow modern accessibility guidelines, including:
-
-- Screen reader support (ARIA labels, semantic HTML)
-- Keyboard navigability
-- Color contrast for visibility
-- Alt text on all images
-
-We are continually testing and improving to meet WCAG 2.1 AA standards.
-
-### 2. Inclusive Experiences
-
-We encourage providers to list accessibility features on each experience, such as:
-
-- Wheelchair accessibility
-- Support for visually or hearing-impaired guests
-- Gentle or senior-friendly activity options
-- Staff trained in inclusive tourism practices
-
-Look for the **“Accessible”** badge on listings, or use filters to find suitable adventures.
-
-### 3. Requesting Accommodations
-
-If you require accommodations:
-
-- Add notes at checkout, or
-- Contact our support team at **info@wildroadnomads.co.ke**
-
-We’ll coordinate with providers to ensure your needs are met.
-
-### 4. Provider Guidelines
-
-We offer training and resources to providers on how to:
-
-- Welcome guests with disabilities
-- Communicate respectfully
-- Offer adaptive equipment or services where possible
-
-Our platform favors inclusive providers in search rankings and reviews.
-
-### 5. Feedback
-
-If you encounter accessibility barriers, please let us know. Feedback helps us improve our platform for all users.
-
-**Submit accessibility feedback to:** info@wildroadnomads.co.ke
-
-### 6. Commitment to Improvement
-
-We believe that adventure should be for everyone. We're investing in inclusive technology and working with disability organizations to make that vision a reality.
-
-Thank you for helping us build a more accessible world of travel.
-  `.trim(),
-    },
-
+**Email:** info@teko.africa  
+**Phone:** +254 700 000 000  
+**Address:** Nairobi, Kenya
+    `.trim(),
+  },
 
 };
